@@ -5,11 +5,14 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace c0730283___c0731555
+
+
+
 {
-    class Program
+    public class DelegateExercises
     {
-        static void Main(string[] args)
-        {
+        
         }
+
     }
 }
