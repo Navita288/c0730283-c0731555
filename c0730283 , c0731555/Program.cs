@@ -16,13 +16,13 @@ namespace c0730283___c0731555
         public delegate void MyDelegate();
         void Method1()
         {
-            Console.WriteLine("Method!");
+            Console.WriteLine("Method1");
             Console.ReadLine();
         }
         public void Method2()
         {
             MyDelegate myDelegate = new MyDelegate(Method1);
-            myDelegate();
+            myDelegate(50);
         }
 
     }
