@@ -11,6 +11,12 @@ namespace c0730283___c0731555
 {
     public class DelegateExercises
     {
+        public delegate void MyDelegate();
+        void Method1()
+        {
+            Console.WriteLine("Method!");
+            Console.ReadLine();
+        }
         
         }
 
