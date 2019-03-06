@@ -27,3 +27,13 @@ namespace c0730283___c0731555
 
     }
 }
+namespace DelegatesAndEvents
+{
+    class Program
+        {
+      static void Main (string[] args)
+        {
+            // TO DO: Call Method2 from the DelegateExerciseClass
+        }
+    }
+    }
