@@ -14,7 +14,7 @@ namespace c0730283___c0731555
         //student name navita navita
         //studentname gagandeep sidhu
         public delegate void MyDelegate();
-        void Method1()
+        void Method1(int i)
         {
             Console.WriteLine("Method1");
             Console.ReadLine();
@@ -22,18 +22,8 @@ namespace c0730283___c0731555
         public void Method2()
         {
             MyDelegate myDelegate = new MyDelegate(Method1);
-            myDelegate(50);
+            myDelegate();
         }
 
     }
 }
-namespace DelegatesAndEvents
-{
-    class Program
-        {
-      static void Main (string[] args)
-        {
-            // TO DO: Call Method2 from the DelegateExerciseClass
-        }
-    }
-    }
